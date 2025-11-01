@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "skipLibCheck": true
+  },
+  "languageFeatures": {
+    "pipelineOperators": true,
+    "matchExpressions": true,
+    "withUpdates": true,
+    "autoProperties": true,
+    "linqQueries": true,
+    "operatorOverloading": true,
+    "enhancedTypes": true
+  },
+  "transpilation": {
+    "preserveWhitespace": true,
+    "generateHelpers": true,
+    "optimizeOutput": false,
+    "bundleHelpers": false
+  },
+  "include": [
+    "src/**/*.csc",
+    "*.csc"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "dist/**/*",
+    "**/*.d.ts"
+  ],
+  "files": [],
+  "watch": {
+    "enabled": false,
+    "extensions": [
+      ".csc"
+    ],
+    "ignore": [
+      "node_modules",
+      "dist"
+    ]
+  },
+  "output": {
+    "format": "module",
+    "extension": ".js",
+    "preserveStructure": true
+  }
+}
