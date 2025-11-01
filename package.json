@@ -1,6 +1,6 @@
 {
   "name": "cscript-language",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CScript - A hybrid programming language combining JavaScript, TypeScript, C, C++, and C# syntax with pipeline operators, match expressions, LINQ queries, and operator overloading",
   "main": "dist/transpile.js",
   "types": "dist/transpile.d.ts",
